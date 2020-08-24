@@ -46,7 +46,7 @@ $accentColor: #ffa62b;
         .accordion__list--chevron {
           transform: scale(0.8);
           padding-top: 3px;
-          transition: transform ease 0.8s;
+          transition: transform ease 0.5s;
           color: $accentColor;
           fill: currentColor;
         }
@@ -58,11 +58,6 @@ $accentColor: #ffa62b;
       .details {
         display: flex;
         justify-content: space-evenly;
-        -webkit-transition: max-height 0.8s; 
-        -moz-transition: max-height 0.8s; 
-        -ms-transition: max-height 0.8s; 
-        -o-transition: max-height 0.8s; 
-        transition: max-height 0.8s;  
         overflow: hidden;
         color: $primaryText;
         .detail__list--container {
