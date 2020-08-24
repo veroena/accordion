@@ -1,4 +1,4 @@
-#Accordion test
+# Accordion test
 
 App developed in ReactJS using Hooks and Redux to manage state. When initializing, fetches data from an external URL and then renders it on the screen in an accordion shape so the user can consult the different categories available.
 
