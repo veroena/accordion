@@ -36,6 +36,7 @@ const App = (props) => {
 
   return (
     <div className="App">
+      <h1 className="app-title">Accordion</h1>
       {services.length === 0 ? 
         <Loading />
       :
